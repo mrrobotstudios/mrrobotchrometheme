@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "The Robot Corporation Theme",
+    "version": "1.0.0",
+    "description": "A Google Chrome theme for The Robot Corporation",
+    "theme": {
+        "theme_frame": "black.jpg",
+        "theme_toolbar": "black.jpg",
+        "theme_ntp_background": "black.jpg"
+    },
+    "colors": {
+        "frame": [0, 0, 0],
+        "toolbar": [0, 0, 0],
+        "tab_text": [0, 0, 0],
+        "ntp_background": [0, 0, 0],
+        "ntp_text": [0, 0, 0],
+        "button_background": [0, 0, 0]
+    },
+    "properties": {
+        "ntp_background_alignment": "bottom",
+        "ntp_background_repeat": "no-repeat"
+    }
+}
