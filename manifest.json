@@ -1,23 +1,26 @@
 {
-    "manifest_version": 3,
-    "name": "The Robot Corporation Theme",
-    "version": "1.0.0",
-    "description": "A Google Chrome theme for The Robot Corporation",
-    "theme": {
-        "theme_frame": "black.jpg",
-        "theme_toolbar": "black.jpg",
-        "theme_ntp_background": "black.jpg"
+  "manifest_version": 3,
+  "name": "The Robot Corporation Theme",
+  "version": "1.0.0",
+  "description": "A sleek, futuristic Chrome theme inspired by The Robot Corporation.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_toolbar": "images/toolbar.png",
+      "theme_ntp_background": "images/ntp_bg.png",
+      "theme_ntp_attribution": "images/logo.png"
     },
     "colors": {
-        "frame": [0, 0, 0],
-        "toolbar": [0, 0, 0],
-        "tab_text": [0, 0, 0],
-        "ntp_background": [0, 0, 0],
-        "ntp_text": [0, 0, 0],
-        "button_background": [0, 0, 0]
+      "frame": [0, 0, 0],
+      "toolbar": [10, 10, 10],
+      "tab_text": [0, 255, 255],
+      "ntp_background": [0, 0, 0],
+      "ntp_text": [255, 255, 255],
+      "button_background": [0, 153, 204]
     },
     "properties": {
-        "ntp_background_alignment": "bottom",
-        "ntp_background_repeat": "no-repeat"
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     }
+  }
 }
